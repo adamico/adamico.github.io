@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating Minecraft mods
-subtitle: Part 1: carnet de voyage
+subtitle: Part 1
 tags: [minecraft, modding, don't starve, games, java]
 comments: true
 ---
