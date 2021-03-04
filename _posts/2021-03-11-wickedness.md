@@ -12,6 +12,8 @@ Welcome to part 2 of my Minecraft modding voyage!
 As a preamble I want to say I'm not a IDE guy. I use VIM and a bit of Sublime Text in my Linux machines and sometimes in Windows too.
 But I really like what the Microsoft team does with the Visual Studio Code IDE and I'm going to use it for Java and Minecraft modding.
 
+Most of the info I'm writing here comes either from https://thebookofmodding.ml/ or https://mcforge.readthedocs.io/en/1.15.x/.
+
 1. Install the Java Extension Pack, which contains these popular extensions:
   - Language Support for Java(TM) by Red Hat  
   - Debugger for Java  
