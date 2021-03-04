@@ -19,8 +19,16 @@ But I really like what the Microsoft team does with the Visual Studio Code IDE a
   - Maven for Java  
   - Project Manager for Java  
   - Visual Studio IntelliCode  
-2. Install the Gradle Extension Pack and the Minecraft Essentials Extension pack
+2. Install the Gradle Extension Pack, Minecraft Essentials Extension Pack, and the Better TOML extention
 3. Restart VSCode
 4. Download 1.16.5 [Forge](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.16.5.html) and extract the 1.16.5-36.0.45/forge-1.16.5-36.0.45-mdk.zip file
 5. Follow the instructions from the [Documentation](https://mcforge.readthedocs.io/en/1.15.x/gettingstarted/)  
  there's a VSCode specific task named `genVSCodeRuns` which can be run through the Gradle tab found on the left panel
+6. Copy the `src` directory from the forge archive to our project main directory (overwriting it)
+7. Modify the path to our mod Java class from `src\main\java\com\example\examplemod` to `src\main\java\com\vendor\modid`, in our case `com\kc00l\wickedness`
+8. Modify `build.gradle` file:
+  - replacing `modid` with `wickedness`
+  - replacing `yourname` with `kc00l`
+  - replacing `examplemod` with `wickedness`
+  - replacing `examplemodsareus` with `kc00l`
+9. Modify `src\main\resources\META-INF\mods.toml`
