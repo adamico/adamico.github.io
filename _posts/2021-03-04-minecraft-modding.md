@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating Minecraft mods
-subtitle: Part 1
+subtitle: part 1
 tags: [minecraft, modding, don't starve, games, java]
 comments: true
 ---
@@ -31,17 +31,18 @@ Anyway, I think adding a wickedness meter to MC could work well and the concept 
 
 This is the plan:
 
-- [ ] Install JDK
-- [ ] Choose an appropriate code writing environment (Visual Studio, Sublime Text, IntelliJ IDEA, Eclipse, etc.)
-- [ ] Download Forge
-- [ ] Write a _Hello, World!_ mod code snippet
-- [ ] Implement the wickedness meter and threshold for punishment
-- [ ] Assign wickedness values for neutral creatures
-- [ ] Maybe add a wickedness resource which is harvested from neutral creatures
-- [ ] Increment wickedness when killing animals
-- [ ] Decrease wickedness when time passes without killing animals
-- [ ] Decrease wickedness when killing certain monsters (not sure about this)
-- [ ] Make something happen when the wickedness threshold is reached: spawn monster(s), add effects
-- [ ] Allow stashing wickedness to prepare for retribution
+- Install JDK
+- Choose an appropriate code writing environment (Visual Studio, Sublime Text, IntelliJ IDEA, Eclipse, etc.)
+- Download Forge
+- Write a _Hello, World!_ mod code snippet
+- Create a Github repo for the mod
+- Implement the wickedness meter and threshold for punishment
+- Assign wickedness values for neutral creatures
+- Maybe add a wickedness resource which is harvested from neutral creatures
+- Increment wickedness when killing animals
+- Decrease wickedness when time passes without killing animals
+- Decrease wickedness when killing certain monsters (not sure about this)
+- Make something happen when the wickedness threshold is reached: spawn monster(s), add effects
+- Allow stashing wickedness to prepare for retribution
 
 This will be fun !
